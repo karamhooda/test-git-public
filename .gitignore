@@ -1,0 +1,21 @@
+cat <<EOL > .gitignore
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore build directories and files
+/build/
+/dist/
+/out/
+*.o
+*.obj
+*.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+EOL
